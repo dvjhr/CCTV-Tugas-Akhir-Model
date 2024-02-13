@@ -19,8 +19,8 @@ pip install requirements.txt
 
 ```
 git clone https://github.com/dvjhr/CCTV-Tugas-Akhir-Model.git
-cd CCTV-Tugas-Akhir
-run notebook.ipynb for "Main Program" cell
+cd CCTV-Tugas-Akhir-Model
+run main.py
 ```
 
 # Author 
