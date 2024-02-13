@@ -40,11 +40,13 @@ print("""
 1. Lift Gerbang Barat - 101 (1)
 2. Selasar Gerbang Barat - 201 (2)
 3. Selasar Lab KCKS - 301 (3)
-4. Lab KCKS Belakang - 1101 (4)
+4. Lab KCKS Belakang - 1101 (11)
 """)
 while True:
     input_def = input("Select Camera: ")
-    if str(input_def) == "1" or str(input_def) == "2" or str(input_def) == "3" or str(input_def) == "4":
+    if str(input_def) == "1" or str(input_def) == "2" or str(input_def) == "3" or str(input_def) == "4" or str(input_def) == "11":
+        if str(input_def) == 4:
+            input_def = 11
         input_name = f'rtsp://KCKS:majuteru5@10.15.40.48/Streaming/Channels/{input_def}01'
         break
     else:
